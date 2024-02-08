@@ -183,13 +183,18 @@ nav{
 
 .menulist > ul > li{
   /* border: 1px solid white; */
-  color: white;
   display: inline;
-  padding: 7px;
+  
   font-weight: bold;
 }
 
-.menulist > ul > li:hover{
+.menulist > ul > li > a{
+  color: white;
+  padding: 7px;
+}
+
+.menulist > ul > li > a:hover{
+  text-decoration: none;
   border: 1px solid white;
 }
 
